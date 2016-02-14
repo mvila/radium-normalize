@@ -1,4 +1,4 @@
-# radium-normalize [![Build Status](https://travis-ci.org/mvila/radium-normalize.svg?branch=master)](https://travis-ci.org/mvila/radium-normalize)
+# radium-normalize
 
 [normalize.css](http://necolas.github.io/normalize.css/) for [Radium](http://stack.formidable.com/radium/).
 
