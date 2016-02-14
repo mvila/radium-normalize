@@ -1,0 +1,22 @@
+{
+  "name": "radium-normalize",
+  "version": "3.0.3",
+  "description": "normalize.css for Radium",
+  "author": "Manuel Vila <mvila@3base.com>",
+  "license": "MIT",
+  "main": "normalize.json",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mvila/radium-normalize"
+  },
+  "scripts": {
+    "build": "node build.js",
+    "release": "(git checkout --quiet master && test -z \"$(git status --porcelain)\" && git push --follow-tags) && npm publish || echo \"An error occured (unclean repository?)\"",
+    "test": "echo \"Warning: no test specified\" && exit 0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "css-to-radium": "^1.0.3",
+    "normalize.css": "^3.0.3"
+  }
+}
