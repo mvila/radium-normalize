@@ -7,31 +7,34 @@
   "body": {
     "margin": 0
   },
-  "article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary": {
+  "article, aside, details,  figcaption, figure, footer, header, main,  menu, nav, section, summary": {
     "display": "block"
   },
   "audio, canvas, progress, video": {
-    "display": "inline-block",
-    "verticalAlign": "baseline"
+    "display": "inline-block"
   },
   "audio:not([controls])": {
     "display": "none",
     "height": 0
   },
-  "[hidden], template": {
+  "progress": {
+    "verticalAlign": "baseline"
+  },
+  "template,  [hidden]": {
     "display": "none"
   },
   "a": {
     "backgroundColor": "transparent"
   },
   "a:active, a:hover": {
-    "outline": 0
+    "outlineWidth": 0
   },
   "abbr[title]": {
-    "borderBottom": "1px dotted"
+    "borderBottom": "none",
+    "textDecoration": "underline dotted"
   },
   "b, strong": {
-    "fontWeight": "bold"
+    "fontWeight": "bolder"
   },
   "dfn": {
     "fontStyle": "italic"
@@ -41,7 +44,7 @@
     "margin": "0.67em 0"
   },
   "mark": {
-    "background": "#ff0",
+    "backgroundColor": "#ff0",
     "color": "#000"
   },
   "small": {
@@ -53,70 +56,58 @@
     "position": "relative",
     "verticalAlign": "baseline"
   },
-  "sup": {
-    "top": "-0.5em"
-  },
   "sub": {
     "bottom": "-0.25em"
   },
+  "sup": {
+    "top": "-0.5em"
+  },
   "img": {
-    "border": 0
+    "borderStyle": "none"
   },
   "svg:not(:root)": {
     "overflow": "hidden"
+  },
+  "code, kbd, pre, samp": {
+    "fontFamily": "monospace, monospace",
+    "fontSize": "1em"
   },
   "figure": {
     "margin": "1em 40px"
   },
   "hr": {
     "boxSizing": "content-box",
-    "height": 0
+    "height": 0,
+    "overflow": "visible"
   },
-  "pre": {
-    "overflow": "auto"
-  },
-  "code, kbd, pre, samp": {
-    "fontFamily": "monospace, monospace",
-    "fontSize": "1em"
-  },
-  "button, input, optgroup, select, textarea": {
-    "color": "inherit",
+  "button, input, select, textarea": {
     "font": "inherit",
     "margin": 0
   },
-  "button": {
+  "optgroup": {
+    "fontWeight": "bold"
+  },
+  "button, input,  select": {
     "overflow": "visible"
   },
   "button, select": {
     "textTransform": "none"
   },
-  "button, html input[type=\"button\"],  input[type=\"reset\"], input[type=\"submit\"]": {
-    "WebkitAppearance": "button",
+  "button, [type=\"button\"], [type=\"reset\"], [type=\"submit\"]": {
     "cursor": "pointer"
   },
-  "button[disabled], html input[disabled]": {
+  "[disabled]": {
     "cursor": "default"
+  },
+  "button, html [type=\"button\"],  [type=\"reset\"], [type=\"submit\"]": {
+    "WebkitAppearance": "button"
   },
   "button::-moz-focus-inner, input::-moz-focus-inner": {
     "border": 0,
     "padding": 0
   },
-  "input": {
-    "lineHeight": "normal"
-  },
-  "input[type=\"checkbox\"], input[type=\"radio\"]": {
-    "boxSizing": "border-box",
-    "padding": 0
-  },
-  "input[type=\"number\"]::-webkit-inner-spin-button, input[type=\"number\"]::-webkit-outer-spin-button": {
-    "height": "auto"
-  },
-  "input[type=\"search\"]": {
-    "WebkitAppearance": "textfield",
-    "boxSizing": "content-box"
-  },
-  "input[type=\"search\"]::-webkit-search-cancel-button, input[type=\"search\"]::-webkit-search-decoration": {
-    "WebkitAppearance": "none"
+  "button:-moz-focusring, input:-moz-focusring": {
+    "outline": "1px dotted ButtonText"
   },
   "fieldset": {
     "border": "1px solid #c0c0c0",
@@ -124,20 +115,27 @@
     "padding": "0.35em 0.625em 0.75em"
   },
   "legend": {
-    "border": 0,
-    "padding": 0
+    "boxSizing": "border-box",
+    "color": "inherit",
+    "display": "table",
+    "maxWidth": "100%",
+    "padding": 0,
+    "whiteSpace": "normal"
   },
   "textarea": {
     "overflow": "auto"
   },
-  "optgroup": {
-    "fontWeight": "bold"
-  },
-  "table": {
-    "borderCollapse": "collapse",
-    "borderSpacing": 0
-  },
-  "td, th": {
+  "[type=\"checkbox\"], [type=\"radio\"]": {
+    "boxSizing": "border-box",
     "padding": 0
+  },
+  "[type=\"number\"]::-webkit-inner-spin-button, [type=\"number\"]::-webkit-outer-spin-button": {
+    "height": "auto"
+  },
+  "[type=\"search\"]": {
+    "WebkitAppearance": "textfield"
+  },
+  "[type=\"search\"]::-webkit-search-cancel-button, [type=\"search\"]::-webkit-search-decoration": {
+    "WebkitAppearance": "none"
   }
 }
