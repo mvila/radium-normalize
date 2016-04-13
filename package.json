@@ -18,9 +18,10 @@
     "release-major": "npm run release --release-type=major",
     "test": "echo \"Warning: no test specified\" && exit 0"
   },
-  "dependencies": {},
+  "dependencies": {
+  },
   "devDependencies": {
     "css-to-radium": "^1.0.3",
-    "normalize.css": "^4.0.0"
+    "normalize.css": "^4.1.1"
   }
 }
