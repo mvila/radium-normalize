@@ -1,6 +1,6 @@
 {
   "name": "radium-normalize",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "normalize.css for Radium",
   "author": "Manuel Vila <mvila@3base.com>",
   "license": "MIT",
@@ -18,8 +18,7 @@
     "release-major": "npm run release --release-type=major",
     "test": "echo \"Warning: no test specified\" && exit 0"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "css-to-radium": "^1.0.3",
     "normalize.css": "^4.1.1"
