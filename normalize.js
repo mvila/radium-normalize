@@ -1,4 +1,4 @@
-{
+module.exports = {
   "html": {
     "fontFamily": "sans-serif",
     "msTextSizeAdjust": "100%",
@@ -142,4 +142,4 @@
     "WebkitAppearance": "button",
     "font": "inherit"
   }
-}
+};

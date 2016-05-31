@@ -5,7 +5,7 @@
   "author": "Manuel Vila <mvila@3base.com>",
   "license": "MIT",
   "reveal": true,
-  "main": "normalize.json",
+  "main": "normalize.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/mvila/radium-normalize"
