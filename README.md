@@ -1,6 +1,6 @@
 # radium-normalize
 
-[normalize.css](http://necolas.github.io/normalize.css/) for [Radium](http://stack.formidable.com/radium/).
+[Normalize.css](http://necolas.github.io/normalize.css/) for [Radium](http://stack.formidable.com/radium/).
 
 ## Installation
 

@@ -1,7 +1,7 @@
 {
   "name": "radium-normalize",
   "version": "2.0.2",
-  "description": "normalize.css for Radium",
+  "description": "Normalize.css for Radium",
   "author": "Manuel Vila <mvila@3base.com>",
   "license": "MIT",
   "reveal": true,
