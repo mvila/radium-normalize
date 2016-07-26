@@ -1,6 +1,7 @@
 module.exports = {
   "html": {
     "fontFamily": "sans-serif",
+    "lineHeight": 1.15,
     "msTextSizeAdjust": "100%",
     "WebkitTextSizeAdjust": "100%"
   },
@@ -81,7 +82,7 @@ module.exports = {
     "height": 0,
     "overflow": "visible"
   },
-  "button, input, select, textarea": {
+  "button, input, optgroup, select, textarea": {
     "font": "inherit",
     "margin": 0
   },

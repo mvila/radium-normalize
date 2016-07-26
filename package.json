@@ -21,6 +21,6 @@
   "dependencies": {},
   "devDependencies": {
     "css-to-radium": "^1.0.3",
-    "normalize.css": "^4.1.1"
+    "normalize.css": "^4.2.0"
   }
 }
