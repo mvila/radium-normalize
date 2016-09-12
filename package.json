@@ -5,6 +5,9 @@
   "author": "Manuel Vila <mvila@3base.com>",
   "license": "MIT",
   "reveal": true,
+  "files": [
+    "normalize.js"
+  ],
   "main": "normalize.js",
   "repository": {
     "type": "git",

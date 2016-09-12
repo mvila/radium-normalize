@@ -4,8 +4,6 @@
 
 ## Installation
 
-With npm (for Browserify/Webpack):
-
 ```
 npm install --save radium-normalize
 ```
